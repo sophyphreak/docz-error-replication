@@ -42,7 +42,8 @@
     "test": "cross-env NODE_ENV=test jest --coverage",
     "test:watch": "cross-env NODE_ENV=test jest --watchAll",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "prettify": "prettier --write"
+    "prettify": "prettier --write",
+    "docz:dev": "docz dev"
   },
   "browserslist": [
     "last 2 versions",
@@ -69,6 +70,7 @@
     "compression": "1.7.4",
     "connected-react-router": "6.4.0",
     "cross-env": "5.2.0",
+    "docz": "^2.3.1",
     "express": "4.16.4",
     "fontfaceobserver": "2.1.0",
     "history": "4.9.0",
